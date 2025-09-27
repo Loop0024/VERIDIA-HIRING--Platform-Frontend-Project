@@ -1,0 +1,120 @@
+/* Reset & body */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #e6f2ff; /* lightish blue */
+  position: relative;
+  min-height: 100vh;
+}
+
+/* Watermark */
+body::before {
+  content: "";
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 120%;
+  height: 120%;
+  background-image: url('https://media.licdn.com/dms/image/v2/D560BAQHxrwd_WvPRIA/company-logo_200_200/B56ZjmMY0nHkAI-/0/1756208664498?e=2147483647&v=beta&t=-UJ30y_SAvJOd0GkOKpeEFZJ9rs6nrFjIEMSa_Srns0');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  opacity: 0.15;
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* Navbar */
+nav {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  align-items: center;
+}
+
+nav h1 {
+  font-size: 32px;
+  font-weight: bold;
+  color: black;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #007bff;
+}
+
+/* Forms */
+form {
+  position: relative;
+  z-index: 1;
+  background-color: rgba(255,255,255,0.2); /* transparent */
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+}
+
+form h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 26px;
+  font-weight: bold;
+  color: black;
+}
+
+form input, form select, form button {
+  margin-bottom: 15px;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+/* Applicant/Admin cards */
+.applicant-card {
+  position: relative;
+  z-index: 1;
+  border-radius: 12px;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  display: flex;
+  align-items: center;
+}
+
+.status-dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.status-under-review { background-color: orange; }
+.status-approved { background-color: green; }
+.status-rejected { background-color: red; }

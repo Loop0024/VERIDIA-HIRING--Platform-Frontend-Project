@@ -1,86 +1,70 @@
-# VERIDIA-HIRING--Platform-Frontend-Project
-Created first Frontend Web Dev. Project for the Veridia.io -Hiring Platform ,Using lot of Tech soft with use of AI and github Resources. 
-ChatGPT said:
-Veridia Hiring Platform
+# Getting Started with Create React App
 
-A frontend hiring platform to streamline Veridia’s recruitment process. Built with React and styled for a professional look, it includes candidate registration, application submission, dashboards, and a visual HR panel.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-1. Tech Stack Used
-For suggestion code snippet , errorr solution -Chatgpt, BLackbox AI.
-Frontend: React.js
-Routing: React Router DOM
-Styling: CSS, Bootstrap (optional for quick components)
-State Management: React useState and sessionStorage for temporary form data
-Icons/Graphics: Online image URLs for watermark and status dots
-Development Environment: Node.js, npm
+## Available Scripts
 
-2. Features Implemented
-Candidate Features
-Candidate registration and login
-Application form to submit personal details, profession, and application info
-Applicant Dashboard to view application status (Under Review / Approved / Rejected)
-Form submission feedback with tick icon confirmation
-Admin / HR Features
-Admin Dashboard to view all applications
-Color-coded status indicators for quick filtering:
-Orange: Under Review
-Green: Approved
-Red: Rejected
-Distinct visual layout separate from applicant view
-UI/UX Features
-Watermark logo of Veridia, centered, big, medium opacity
-Light blue background with subtle transparency for forms
-Bold headings and styled navigation
-Shadowed forms and applicant/admin cards for modern UI
-Hover effects on buttons and links
-Responsive layout
+In the project directory, you can run:
 
-4. Screenshots
+### `npm start`
 
-Landing Page / Login Page- http://localhost:3000/register.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Register Page- http://localhost:3000/register.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Applicant Dashboard-http://localhost:3000/applicant-dashboard.
+### `npm test`
 
-Apply Page-http://localhost:3000/apply
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Admin Dashboard-http://localhost:3000/admin-dashboard.
+### `npm run build`
 
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Application Form
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-4. How to Run Locally...
-# Clone repository
-git clone <your-repo-url>
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-# Navigate into project folder
-cd veridia-hiring
+### `npm run eject`
 
-# Install dependencies
-npm install
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-# Start development server
-npm start
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-Open http://localhost:3000
- to view it in the browser.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-5. Folder Structure (Optional, but recommended)
-veridia-hiring/
-├─ src/
-│  ├─ components/
-│  │  ├─ Navbar.js
-│  │  ├─ Login.js
-│  │  ├─ Register.js
-│  │  ├─ ApplicationForm.js
-│  │  ├─ ApplicantDashboard.js
-│  │  └─ AdminDashboard.js
-│  ├─ index.js
-│  ├─ App.js
-│  └─ index.css
-├─ public/
-│  └─ index.html
-├─ package.json
-└─ README.md
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
